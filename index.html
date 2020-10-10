@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  CSS Styles -->
+    <link rel="stylesheet" href="dist/css/container.css">
+    <!---------------->
+    <title>AirBNB</title>
+</head>
+
+<body>
+    <!--  Main Container  -->
+
+    <div class="main-container">
+
+        <!-- hero container -->
+
+
+        <section class="hero-container">
+            <div class="nav-container">
+                <header>
+                    <a class="logo" href="#">
+                        <img class="logo-img" src="/images/logo.svg" alt="logo">
+                    </a>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Français (FR)</a></li>
+                            <li><a href="#">EUR €</a></li>
+                            <li><a href="#">Devenir hôte</a></li>
+                            <li><a href="#">Créer son expérience</a></li>
+                            <li><a href="#">Aide</a></li>
+                            <li><a href="#">Inscription</a></li>
+                            <li><a href="#">Connexion</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <span class="close-menu">x</span>
+                <nav>
+                    <ul>
+                        <li><a href="#">Français (FR)</a></li>
+                        <li><a href="#">EUR €</a></li>
+                        <li><a href="#">Devenir hôte</a></li>
+                        <li><a href="#">Créer son expérience</a></li>
+                        <li><a href="#">Aide</a></li>
+                        <li><a href="#">Inscription</a></li>
+                        <li><a href="#">Connexion</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <span class="hamburger-menu-icon">☰</span>
+
+            <div class="reservation-card-container">
+                <div class="reservation-card">
+                    <p class="card-text">Réservez des hébergements et des activités uniques.</p>
+                    <form class="card-form" action="#" method="GET">
+
+                        <div class="form-partout">
+                            <label for="partout">Où</label>
+                            <input type="text" name="partout" id="partout" placeholder="Partout">
+                        </div>
+
+                        <div class="form-arrivee-depart">
+                            <div class="form-arrivee">
+                                <label for="arrivee">Arrivée</label>
+                                <input class="form-arrivee-input" type="text" name="arrivee" id="arrivee"
+                                    placeholder="jj/mm/aaaa">
+                            </div>
+
+                            <div class="form-depart">
+                                <label for="depart">Départ</label>
+                                <input class="form-depart-input" type="text" name="depart" id="depart"
+                                    placeholder="jj/mm/aaaa">
+                            </div>
+
+                        </div>
+                        <div class="form-voyageurs">
+                            <label for="voyageurs">Voyageurs</label>
+                            <input type="text" name="voyageurs" id="voyageurs" placeholder="Voyageurs">
+                        </div>
+                        <button class="cta-button">Rechercher</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <!--  End of Hero Container  -->
+
+        <!--  Main Section  -->
+
+
+        <main class="main-section">
+
+            <!--  Explorer Container  -->
+
+
+            <section class="explorer-container">
+                <h1 class="explorer-heading">Explorer Airbnb</h1>
+                <div class="explorer-sections">
+
+                    <div class="explorer-mini-card">
+                        <img src="/images/logements.svg" alt="logements">
+                        <p class="explorer-mini-card-text">Logements</p>
+                    </div>
+
+                    <div class="explorer-mini-card">
+                        <img src="/images/experiences.svg" alt="experiences">
+                        <p class="explorer-mini-card-text">Expériences</p>
+                    </div>
+
+                    <div class="explorer-mini-card">
+                        <img src="/images/aventures.svg" alt="aventures">
+                        <p class="explorer-mini-card-text">Aventures</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--  End of Hero Container  -->
+
+            <!--  Heber Container  -->
+
+
+            <section class="heber-container">
+                <h1 class="heber-heading">Hébergements Airbnb Plus</h1>
+                <p class="heber-text">Une sélection de logements vérifiés selon des critères de qualité et de design</p>
+                <div class="heber-image">
+                    <div class="heber-logo-container">
+                        <img class="logo" src="/images/logo.svg" alt="logo">
+                        <a class="cta-secondary">
+                            <span>Découvrir des logeaents</span>
+                            <img class="arrow" src="/images/arrow.svg" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--  End of Heber Container  -->
+
+            <!--  Aventures Container  -->
+
+
+            <section class="aventures-container">
+                <h1 class="aventures-heading">Découvrez les aventures Airbnb</h1>
+                <p class="aventures-text">Voyages de plusieurs jours organisés par des experts locaux avec activités,
+                    repas et logements
+                    compris</p>
+                <div class="aventures-card-container">
+                    <div class="aventures-card">
+                        <img src="/images/cayman.svg" alt="cayman islands">
+                        <p class="card-country">Cayman Islands</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                    <div class="aventures-card">
+                        <img src="/images/uruguay.svg" alt="uruguay">
+                        <p class="card-country">Uruguay</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                    <div class="aventures-card">
+                        <img src="/images/iceland.svg" alt="iceland">
+                        <p class="card-country">Iceland</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                    <div class="aventures-card">
+                        <img src="/images/mongolia.svg" alt="mongolia">
+                        <p class="card-country">Mongolia</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                    <div class="aventures-card">
+                        <img src="/images/bahrain.svg" alt="bahrain">
+                        <p class="card-country">Bahrain</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                    <div class="aventures-card">
+                        <img src="/images/bosnia.svg" alt="bosnia and herzegovina">
+                        <p class="card-country">Bosnia and Herzegovina</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--  End of Aventures Container  -->
+
+            <!--  Logements Container  -->
+
+
+            <section class="logements-container">
+                <h1 class="logements-heading">Logements dans le monde entier</h1>
+                <div class="logements-card-container">
+                    <div class="logements-card">
+                        <img src="/images/toledo-top.svg" alt="toledo">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">Toledo</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/mesa-top.svg" alt="mesa">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">Mesa</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/utica-top.svg" alt="utica">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">Utica</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/south-top.svg" alt="south bend">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">South Bend</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/toledo-bottom.svg" alt="toledo">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">Toledo</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/mesa-bottom.svg" alt="mesa">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">Mesa</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/utica-bottom.svg" alt="utica">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">Utica</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+
+                    <div class="logements-card">
+                        <img src="/images/south-bottom.svg" alt="south bend">
+                        <div class="card-info-top">
+                            <div class="card-info-top-left">
+                                <button class="card-button">Superhost</button>
+                                <span class="card-place">South Bend</span>
+                            </div>
+                            <div class="card-info-top-right">
+                                <img class="star-orange" src="/images/star-orange.svg" alt="star">
+                                <span class="card-rating">4,98</span>
+                            </div>
+                        </div>
+                        <div class="card-info-bottom">
+                            <p>À partir de 577€/personne - 3 jours</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--  End ofLogements Container  -->
+
+            <!--  Notes Container  -->
+
+
+            <section class="notes-container">
+                <h1 class="notes-heading">Expériences très bien notées</h1>
+                <p class="notes-text">Voyages de plusieurs jours organisés par des experts locaux avec activités, repas
+                    et logements
+                    compris</p>
+                <div class="notes-card-container">
+                    <div class="notes-card">
+                        <img src="/images/cayman-exp.svg" alt="cayman islands">
+                        <p class="card-country">Cayman Islands</p>
+                        <h2 class="card-info-top">2 Nights PACKAGE All Inclusive</h2>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="notes-card">
+                        <img src="/images/uruguay-exp.svg" alt="uruguay">
+                        <p class="card-country">Uruguay</p>
+                        <p class="card-info-top">2 Nights PACKAGE All Inclusive</p>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="notes-card">
+                        <img src="/images/iceland-exp.svg" alt="iceland">
+                        <p class="card-country">Iceland</p>
+                        <p class="card-info-top">2 Nights PACKAGE All Inclusive</p>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="notes-card">
+                        <img src="/images/mongolia-exp.svg" alt="mongolia">
+                        <p class="card-country">Mongolia</p>
+                        <p class="card-info-top">2 Nights PACKAGE All Inclusive</p>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="notes-card">
+                        <img src="/images/bahrain-exp.svg" alt="bahrain">
+                        <p class="card-country">Bahrain</p>
+                        <p class="card-info-top">2 Nights PACKAGE All Inclusive</p>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+
+                    <div class="notes-card">
+                        <img src="/images/bosnia-exp.svg" alt="bosnia and herzegovina">
+                        <p class="card-country">Bosnia and Herzegovina</p>
+                        <p class="card-info-top">2 Nights PACKAGE All Inclusive</p>
+                        <p class="card-info-bottom">À partir de 577€/personne - 3 jours</p>
+                        <div class="card-rating-container">
+                            <span class="card-rating">5.0</span>
+                            <img class="star" src="/images/star-turq.svg" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--  End of Notes Container  -->
+
+            <!--  Dest Container  -->
+
+
+            <section class="dest-container">
+                <h1 class="dest-heading">Destinations Airbnb Plus à la Une</h1>
+                <p class="dest-text">Voyages de plusieurs jours organisés par des experts locaux avec activités, repas
+                    et logements
+                    compris</p>
+                <div class="dest-card-container">
+                    <div class="dest-card">
+                        <div class="dest-card-image-container">
+                            <img src="/images/dest-image-first.svg" alt="house">
+                            <img class="logo" src="/images/logo.svg" alt="logo">
+                        </div>
+                        <p class="dest-info-top">Plus de 200 séjours vérifiés</p>
+                        <p class="dest-info-bottom">À partir de 577€/personne - 3 jours</p>
+                    </div>
+
+                    <div class="dest-card">
+                        <div class="dest-card-image-container">
+                            <img src="/images/dest-image-second.svg" alt="house">
+                            <img class="logo" src="/images/logo.svg" alt="logo">
+                        </div>
+                        <p class="dest-info-top">Plus de 200 séjours vérifiés</p>
+                        <p class="dest-info-bottom">À partir de 577€/personne - 3 jours</p>
+                    </div>
+
+                    <div class="dest-card">
+                        <div class="dest-card-image-container">
+                            <img src="/images/dest-image-third.svg" alt="house">
+                            <img class="logo" src="/images/logo.svg" alt="logo">
+                        </div>
+                        <p class="dest-info-top">Plus de 200 séjours vérifiés</p>
+                        <p class="dest-info-bottom">À partir de 577€/personne - 3 jours</p>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--  End of Logements Container  -->
+        </main>
+
+        <!--  End of Main Section  -->
+    </div>
+
+    <!--  End of Main Container  -->
+</body>
+
+<!--  Scripts  -->
+
+<script src="main.js"></script>
+
+<!-- End of Scripts  -->
+
+</html>

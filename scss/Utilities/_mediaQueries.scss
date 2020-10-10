@@ -1,0 +1,109 @@
+///***** 1024px *****///
+
+@media only screen and (max-width: 1024px) {
+
+    .main-section {
+        .notes-container {
+            gap: 2em 1em;
+        }
+
+        .dest-container {
+            .dest-card-container {
+                flex-wrap: wrap;
+            }
+        }
+
+        .explorer-container {
+            .explorer-sections {
+                flex-wrap: wrap;
+                margin: 0;
+                gap: 1em;
+
+                .explorer-mini-card {
+                    margin: 0;
+                }
+            }
+        }
+
+        .heber-container {
+            .heber-image {
+                max-width: calc(100% - 1em);
+            }
+        }
+    }
+}
+
+
+
+///***** 768px *****///
+
+@media only screen and (max-width: 768px) {
+
+
+    .hero-container {
+
+        .reservation-card-container {
+            position: static;
+            margin: 2em auto;
+            width: calc(391px * .875);
+            height: calc(508px + 3em);
+        }
+
+        .reservation-card {
+            input {
+                padding: calc(1em / 2) 0 calc(.75em / 2) calc(1em / 2);
+            }
+        }
+
+        .hamburger-menu-icon {
+            display: block;
+        }
+    }
+
+    .nav-container {
+        header {
+            nav {
+                display: none;
+            }
+        }
+    }
+
+    .main-section {
+        .explorer-container {
+            .explorer-sections {
+                .explorer-mini-card {
+                    max-width: calc(100% - 1em);
+                }
+            }
+        }
+    }
+}
+
+
+
+///***** 452px *****///
+
+@media only screen and (max-width: 452px) {
+
+    .hero-container {
+        .reservation-card-container {
+            width: calc(391px * .750);
+        }
+    }
+
+    .main-section {
+        .explorer-container {
+            .explorer-sections {
+                .explorer-mini-card {
+                    min-width: 270px;
+                }
+            }
+        }
+    }
+
+    .dest-container {
+        .dest-card-container {
+            padding: 0 1em;
+        }
+    }
+}
